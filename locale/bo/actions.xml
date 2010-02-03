@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="Create-Word">
+    <locale lang="fr">Ajouter un nouveau terme</locale>
+  </entity>
+</localization>

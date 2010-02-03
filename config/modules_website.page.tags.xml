@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tags extends="generic">
+  <tag label="&amp;modules.lexicon.bo.tags.word-list;" icon="link">functional_lexicon_word-list</tag>
+  <tag label="&amp;modules.lexicon.bo.tags.word-detail;" icon="link">functional_lexicon_word-detail</tag>
+</tags>

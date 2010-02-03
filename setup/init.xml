@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/lexicon/persistentdocument/import/lexicon_binding.xml" />
+
+	<rootfolder module="preferences">
+		<lexiconpreferences />
+	</rootfolder>	
+</script>

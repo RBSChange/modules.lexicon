@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/media/persistentdocument/import/media_binding.xml" />
+	<binding fileName="modules/website/persistentdocument/import/website_binding.xml" />
+	<binding fileName="modules/lexicon/persistentdocument/import/lexicon_binding.xml" />
+	
+	<website byTag="default_modules_website_default-website" template="tplTwo">
+		<topic label="Lexique" id="lexicontopic">
+			<topic label="Sous rubrique" id="lexicontopicsub"></topic>			
+			<topic label="A venir..."></topic>
+			
+			<page label="Lexique" isIndexPage="true" indexingstatus="false">
+				<tag name="functional_lexicon_word-list" />
+				<changecontent for="content-block">
+					<changeblock type="modules_lexicon_wordContextuallist" />
+				</changecontent>
+			</page>
+
+			<page label="Terme" isIndexPage="false" indexingstatus="false" navigationVisibility="hidden">
+				<tag name="functional_lexicon_word-detail" />
+				<changecontent for="content-block">
+					<changeblock type="modules_lexicon_word" />
+				</changecontent>
+			</page>				
+		</topic>
+	</website>
+					
+	<rootfolder module="lexicon">
+		<linkedtopic refid="lexicontopic">
+			<word label="rbs" 
+				definition="Ready Business System (RBS), ingénierie informatique (SSII) et gestion des systèmes d'information. Prestataire de service en ingénierie informatique : PGI/ERP, Infrastructures, Hébergement - Infogérance, Internet, Solutions collaboratives, Mobilité."
+				/> 			
+			<word label="informatique" 
+				definition="L´informatique, contraction d´information et automatique, désigne, dans son acception populaire, le domaine scientifique, technique et industriel en rapport avec le traitement automatique de l'information par des machines telles que les ordinateurs, les consoles de jeux, les robots, etc."
+				/>
+			<word label="web" 
+				definition="Le World Wide Web, littéralement la « grande toile (d’araignée)[1] mondiale », communément appelé le Web, parfois la Toile ou le WWW, est un système hypertexte public fonctionnant sur Internet et qui permet de consulter, avec un navigateur, des pages mises en ligne dans des sites. L’image de la toile vient des hyperliens qui lient les pages web entre elles."
+				/> 
+			<word label="site Web" 
+				definition="Un site Web est un ensemble de pages Web hyperliées entre elles et mises en ligne à une adresse Web. On dit aussi site Internet par métonymie, le World Wide Web reposant sur Internet. En 2006, le Web a dépassé les 100 millions de sites."
+				/> 
+			<word label="Lexique" 
+				definition="En linguistique, le lexique d'une langue constitue l'ensemble de ses lemmes ou, d'une manière plus courante mais moins précise, « l'ensemble de ses mots ». Toujours dans les usages courants, on utilise, plus facilement le terme vocabulaire."
+				/>
+			<word label="page Web" 
+				definition="Une page Web est une ressource du World Wide Web conçue pour être consultée par des visiteurs à l'aide d'un navigateur Web. Elle a une adresse Web. Techniquement, une page Web est souvent constituée d'un document en Hypertext Markup Language (HTML) (ou XHTML) et d'images. Cependant, tout type de ressources ou d'assemblage de ressources, textuelles, visuelles, sonores, logicielles, peuvent constituer une page Web."
+				/>
+			<word label="protocol" 
+				definition="Dans les réseaux informatiques et les télécommunications, un protocole de communication est une spécification de plusieurs règles pour un type de communication particulier."
+				/>
+			<topic byLabel="Sous rubrique">
+				<word label="CMS" 
+					definition="De l'anglais Content Management System, un CMS est un logiciel permettant de ..."
+					/> 
+				<word label="Change" 
+					definition="RBS Change est un puissant CMS ..."
+					/>		
+			</topic>
+		</linkedtopic>
+	</rootfolder>
+</script>

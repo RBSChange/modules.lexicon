@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+
+	<entity id="title">
+		<locale lang="fr">Lexique</locale>
+		<locale lang="en">Lexicon</locale>
+	</entity>
+	
+	<entity id="no-term">
+		<locale lang="fr">Aucun terme dans le lexique</locale>
+	</entity>
+	
+	<entity id="backtolexicon">
+		<locale lang="fr">retourner au lexique</locale>
+		<locale lang="en">back to lexicon</locale>
+	</entity>
+	
+	<entity id="a-letter-terms">
+		<locale lang="fr">Termes commençant par la lettre {letter}</locale>
+	</entity>
+	
+	<entity id="n">
+		<locale lang="fr">Tous</locale>
+		<locale lang="en">All</locale>
+	</entity>		
+	
+	<entity id="all-terms-title">
+		<locale lang="fr">Tous les termes</locale>
+		<locale lang="en">All terms</locale>
+	</entity>
+	
+	<entity id="terms-listName">
+		<locale lang="fr">des termes</locale>
+	</entity>
+	
+	<entity id="n5">
+		<locale lang="fr">0-9</locale>		
+		<locale lang="en">0-9</locale>
+	</entity>
+	<entity id="na">
+		<locale lang="fr">a</locale>		
+		<locale lang="en">a</locale>
+	</entity>
+	<entity id="nb">
+		<locale lang="fr">b</locale>		
+		<locale lang="en">b</locale>
+	</entity>
+	<entity id="nc">
+		<locale lang="fr">c</locale>		
+		<locale lang="en">c</locale>
+	</entity>
+	<entity id="nd">
+		<locale lang="fr">d</locale>		
+		<locale lang="en">d</locale>
+	</entity>
+	<entity id="ne">
+		<locale lang="fr">e</locale>		
+		<locale lang="en">e</locale>
+	</entity>
+	<entity id="nf">
+		<locale lang="fr">f</locale>		
+		<locale lang="en">f</locale>
+	</entity>
+	<entity id="ng">
+		<locale lang="fr">g</locale>		
+		<locale lang="en">g</locale>
+	</entity>
+	<entity id="nh">
+		<locale lang="fr">h</locale>		
+		<locale lang="en">h</locale>
+	</entity>
+	<entity id="ni">
+		<locale lang="fr">i</locale>		
+		<locale lang="en">i</locale>
+	</entity>
+	<entity id="nj">
+		<locale lang="fr">j</locale>		
+		<locale lang="en">j</locale>
+	</entity>
+	<entity id="nk">
+		<locale lang="fr">k</locale>		
+		<locale lang="en">k</locale>
+	</entity>
+	<entity id="nl">
+		<locale lang="fr">l</locale>		
+		<locale lang="en">l</locale>
+	</entity>
+	<entity id="nm">
+		<locale lang="fr">m</locale>		
+		<locale lang="en">m</locale>
+	</entity>
+	<entity id="nn">
+		<locale lang="fr">n</locale>		
+		<locale lang="en">n</locale>
+	</entity>
+	<entity id="no">
+		<locale lang="fr">o</locale>		
+		<locale lang="en">o</locale>
+	</entity>
+	<entity id="np">
+		<locale lang="fr">p</locale>		
+		<locale lang="en">p</locale>
+	</entity>
+	<entity id="nq">
+		<locale lang="fr">q</locale>		
+		<locale lang="en">q</locale>
+	</entity>
+	<entity id="nr">
+		<locale lang="fr">r</locale>		
+		<locale lang="en">r</locale>
+	</entity>
+	<entity id="ns">
+		<locale lang="fr">s</locale>		
+		<locale lang="en">s</locale>
+	</entity>
+	<entity id="nt">
+		<locale lang="fr">t</locale>		
+		<locale lang="en">t</locale>
+	</entity>
+	<entity id="nu">
+		<locale lang="fr">u</locale>		
+		<locale lang="en">u</locale>
+	</entity>
+	<entity id="nv">
+		<locale lang="fr">v</locale>		
+		<locale lang="en">v</locale>
+	</entity>
+	<entity id="nw">
+		<locale lang="fr">w</locale>		
+		<locale lang="en">w</locale>
+	</entity>
+	<entity id="nx">
+		<locale lang="fr">x</locale>		
+		<locale lang="en">x</locale>
+	</entity>
+	<entity id="ny">
+		<locale lang="fr">y</locale>		
+		<locale lang="en">y</locale>
+	</entity>
+	<entity id="nz">
+		<locale lang="fr">z</locale>
+		<locale lang="en">z</locale>
+	</entity>
+
+</localization>

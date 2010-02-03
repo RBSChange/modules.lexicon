@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+	<entity id="document-name">
+		<locale lang="fr">terme</locale>
+	</entity>
+	<entity id="edition-form-title">
+		<locale lang="fr">édition d'un terme</locale>
+	</entity>
+
+	<entity id="label">
+		<locale lang="fr">terme</locale>
+	</entity>
+	<entity id="label-help">
+		<locale lang="fr">terme</locale>
+	</entity>
+
+	<entity id="firstletter">
+		<locale lang="fr">1er lettre</locale>
+	</entity>
+	<entity id="firstletter-help">
+		<locale lang="fr">1er lettre pour classement</locale>
+	</entity>
+
+	<entity id="definition">
+		<locale lang="fr">définition</locale>
+	</entity>
+	<entity id="definition-help">
+		<locale lang="fr">définition</locale>
+	</entity>
+
+
+</localization>

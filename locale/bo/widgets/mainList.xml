@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+	<entity id="label">
+		<locale lang="fr">Terme</locale>
+	</entity>
+	
+	<entity id="category">
+		<locale lang="fr">Classement</locale>
+	</entity>	
+	
+</localization>

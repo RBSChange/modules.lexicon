@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+	<entity id="document-name">
+		<locale lang="fr">préférences</locale>
+	</entity>
+	<entity id="edition-form-title">
+		<locale lang="fr">Edition des préférences</locale>
+	</entity>
+	<entity id="nbItem">
+		<locale lang="fr">Nombre de termes par page</locale>
+	</entity>
+	<entity id="nbItem-help">
+		<locale lang="fr">Nombre de termes par page</locale>
+	</entity>
+</localization>

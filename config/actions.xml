@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<actions extends="generic">
+  <action name="createWord" label="&amp;modules.lexicon.bo.actions.Create-Word;" icon="document_add">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'word', 'moduleForm');]]></body>
+  </action>
+</actions>
