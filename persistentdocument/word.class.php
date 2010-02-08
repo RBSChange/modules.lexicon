@@ -13,7 +13,8 @@ class lexicon_persistentdocument_word extends lexicon_persistentdocument_wordbas
 		$indexedDoc->setDocumentModel('modules_lexicon/word');
 		$indexedDoc->setLabel($this->getLabel());
 		$indexedDoc->setLang(RequestContext::getInstance()->getLang());
-		$indexedDoc->setText($this->getDefinition());
+		$indexedDoc->setText(f_util_StringUtils::htmlToText($this->getDefinition()));
+		Framework::debug(__METHOD__ . var_export($indexedDoc, true));
 		return $indexedDoc;
 	}
 	

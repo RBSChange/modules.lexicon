@@ -14,4 +14,9 @@
 		<locale lang="fr">Lexique</locale>
 		<locale lang="en">Lexicon</locale>
 	</entity>
+	
+  <entity id="column.pathOf">
+    <locale lang="fr">chemin</locale>
+    <locale lang="en">path</locale>
+  </entity>
 </localization>

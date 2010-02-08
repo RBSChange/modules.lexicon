@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+	<entity id="update-rootfolder">
+		<locale lang="fr">update.rootfolder {documentlabel}</locale>
+	</entity>
+	<entity id="log-update-rootfolder">
+		<locale lang="fr">log-update-rootfolder</locale>
+	</entity>
+	<entity id="move-word">
+		<locale lang="fr">move.word {destinationlabel} {lang} {documentlabel}</locale>
+	</entity>
+	<entity id="log-move-word">
+		<locale lang="fr">log-move-word</locale>
+	</entity>
+	<entity id="update-word">
+		<locale lang="fr">update.word {lang} {documentlabel}</locale>
+	</entity>
+	<entity id="log-update-word">
+		<locale lang="fr">log-update-word</locale>
+	</entity>
+	<entity id="updatetranslation-word">
+		<locale lang="fr">updatetranslation.word {lang} {documentlabel}</locale>
+	</entity>
+	<entity id="log-updatetranslation-word">
+		<locale lang="fr">log-updatetranslation-word</locale>
+	</entity>
+	<entity id="deactivated-word">
+		<locale lang="fr">deactivated.word {lang} {documentlabel}</locale>
+	</entity>
+	<entity id="log-deactivated-word">
+		<locale lang="fr">log-deactivated-word</locale>
+	</entity>
+	<entity id="reactivate-word">
+		<locale lang="fr">reactivate.word {lang} {documentlabel}</locale>
+	</entity>
+	<entity id="log-reactivate-word">
+		<locale lang="fr">log-reactivate-word</locale>
+	</entity>
+	<entity id="deletelocalization-word">
+		<locale lang="fr">deletelocalization.word {documentlabel} {lang}</locale>
+	</entity>
+	<entity id="log-deletelocalization-word">
+		<locale lang="fr">log-deletelocalization-word</locale>
+	</entity>
+	<entity id="delete-word">
+		<locale lang="fr">delete.word {documentlabel} {lang}</locale>
+	</entity>
+	<entity id="log-delete-word">
+		<locale lang="fr">log-delete-word</locale>
+	</entity>
+	<entity id="saveredirectinfo-word">
+		<locale lang="fr">saveredirectinfo.word {lang} {documentlabel}</locale>
+	</entity>
+	<entity id="log-saveredirectinfo-word">
+		<locale lang="fr">log-saveredirectinfo-word</locale>
+	</entity>
+</localization>

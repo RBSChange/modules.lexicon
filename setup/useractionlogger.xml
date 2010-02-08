@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+  <binding fileName="modules/useractionlogger/persistentdocument/import/useractionlogger_binding.xml"/>
+  <actiondef modulename="lexicon" actionname="update.rootfolder" label="modules.lexicon.bo.useractionlogger.update-rootfolder"/>
+  <actiondef modulename="lexicon" actionname="move.word" label="modules.lexicon.bo.useractionlogger.move-word"/>
+  <actiondef modulename="lexicon" actionname="update.word" label="modules.lexicon.bo.useractionlogger.update-word"/>
+  <actiondef modulename="lexicon" actionname="updatetranslation.word" label="modules.lexicon.bo.useractionlogger.updatetranslation-word"/>
+  <actiondef modulename="lexicon" actionname="deactivated.word" label="modules.lexicon.bo.useractionlogger.deactivated-word"/>
+  <actiondef modulename="lexicon" actionname="reactivate.word" label="modules.lexicon.bo.useractionlogger.reactivate-word"/>
+  <actiondef modulename="lexicon" actionname="deletelocalization.word" label="modules.lexicon.bo.useractionlogger.deletelocalization-word"/>
+  <actiondef modulename="lexicon" actionname="delete.word" label="modules.lexicon.bo.useractionlogger.delete-word"/>
+  <actiondef modulename="lexicon" actionname="saveredirectinfo.word" label="modules.lexicon.bo.useractionlogger.saveredirectinfo-word"/>
+</script>

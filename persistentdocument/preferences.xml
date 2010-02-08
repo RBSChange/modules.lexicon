@@ -9,8 +9,4 @@
 	</properties>
 	
 	<statuses default="PUBLICATED" />
-	
-	<form>
-		<property name="label" display="hidden" />
-	</form>
 </document>

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<datasources>
-  <!-- Use it for the form edition -->
-  <datasource treecomponents="modules_generic/folder" listcomponents="modules_lexicon/word"/>
- 
-  <!-- Use it for the website module -->
-  <!-- <datasource name="pagecontent" treecomponents="modules_website/topic" listcomponents="*"/> -->
-</datasources>
