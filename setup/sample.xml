@@ -9,7 +9,7 @@
 			<topic label="Sous rubrique" id="lexicontopicsub"></topic>			
 			<topic label="A venir..."></topic>
 			
-			<page label="Lexique" isIndexPage="true" indexingstatus="false">
+			<page label="Lexique"  isIndexPage="true" indexingstatus="false" navigationVisibility="hidden">
 				<tag name="functional_lexicon_word-list" />
 				<changecontent for="content-block">
 					<changeblock type="modules_lexicon_wordContextuallist" />
