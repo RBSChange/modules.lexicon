@@ -3,7 +3,7 @@
 	<module>
 		<enabled>true</enabled>
 		<visible>true</visible>
-		<icon>document_notebook</icon>
+		<icon>lexicon</icon>
 		<usetopic>true</usetopic>
 	</module>
 </config>

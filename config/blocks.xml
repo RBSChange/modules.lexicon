@@ -1,10 +1,8 @@
 <?xml version="1.0"?>
 <blocks>
-	<block type="modules_lexicon_wordContextuallist" 
-		display="" icon="document_notebook" 
+	<block type="modules_lexicon_wordContextuallist" icon="list-block" 
 		label="&amp;modules.lexicon.bo.blocks.wordContextualList;"/>
 		
-	<block type="modules_lexicon_word" 
-		display="" icon="document_notebook" 
+	<block type="modules_lexicon_word" icon="document" 
 		label="&amp;modules.lexicon.bo.blocks.word;"/>
 </blocks>

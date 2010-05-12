@@ -3,30 +3,22 @@
 	<entity id="document-name">
 		<locale lang="fr">terme</locale>
 	</entity>
-	<entity id="edition-form-title">
-		<locale lang="fr">édition d'un terme</locale>
-	</entity>
-
 	<entity id="label">
 		<locale lang="fr">terme</locale>
 	</entity>
 	<entity id="label-help">
 		<locale lang="fr">terme</locale>
 	</entity>
-
 	<entity id="firstletter">
-		<locale lang="fr">1er lettre</locale>
+		<locale lang="fr">1ère lettre</locale>
 	</entity>
 	<entity id="firstletter-help">
-		<locale lang="fr">1er lettre pour classement</locale>
+		<locale lang="fr">première lettre pour classement</locale>
 	</entity>
-
 	<entity id="definition">
 		<locale lang="fr">définition</locale>
 	</entity>
 	<entity id="definition-help">
 		<locale lang="fr">définition</locale>
 	</entity>
-
-
 </localization>
