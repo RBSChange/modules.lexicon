@@ -1,7 +1,6 @@
 <?php
 class lexicon_BlockWordAction extends website_BlockAction
 {
-	
 	/**
 	 * @see f_mvc_Action::execute()
 	 *

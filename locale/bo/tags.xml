@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localization>
-
 	<entity id="word-list">
 		<locale lang="fr">Lexique</locale>
 	</entity>
-
 	<entity id="word-detail">
 		<locale lang="fr">détail d'un terme</locale>
 	</entity>

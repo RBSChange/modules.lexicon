@@ -1,7 +1,6 @@
 <?php
 class lexicon_BlockWordContextuallistAction extends website_BlockAction
 {
-
 	public function getCacheSpecifications()
 	{
 		return array("modules_lexicon/word", "modules_lexicon/preferences");

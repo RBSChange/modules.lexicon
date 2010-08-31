@@ -3,13 +3,7 @@
 	<entity id="document-name">
 		<locale lang="fr">préférences</locale>
 	</entity>
-	<entity id="edition-form-title">
-		<locale lang="fr">Préférences du module Lexique</locale>
-	</entity>
 	<entity id="nbItem">
-		<locale lang="fr">Nombre de termes par page</locale>
-	</entity>
-	<entity id="nbItem-help">
 		<locale lang="fr">Nombre de termes par page</locale>
 	</entity>
 </localization>
