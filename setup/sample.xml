@@ -14,6 +14,7 @@
 				<changecontent for="content-block">
 					<changeblock type="modules_lexicon_wordContextuallist" />
 				</changecontent>
+				<execute method="setPageRefAsIndex" />
 			</page>
 
 			<page label="Terme" isIndexPage="false" indexingstatus="false" navigationVisibility="hidden">
