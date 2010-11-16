@@ -8,7 +8,7 @@ class lexicon_BlockWordContextuallistAction extends website_BlockAction
 
 	public function getCacheKeyParameters($request)
 	{
-		return array_merge($this->buildCacheKeyParameters(array('fl', paginator_Paginator::REQUEST_PARAMETER_NAME)),
+		return array_merge($this->buildCacheKeyParameters(array('fl', paginator_Paginator::PAGEINDEX_PARAMETER_NAME)),
 		array("context->id" => $this->getHandler()->getContext()->getId(),
 		         "lang->id" => RequestContext::getInstance()->getLang()));
 	}
@@ -40,7 +40,7 @@ class lexicon_BlockWordContextuallistAction extends website_BlockAction
          'title' => f_Locale::translate('&modules.lexicon.frontoffice.all-terms-title;'));
 		if ($firstletter != "")
 		{
-			$allTermsNav['href'] = LinkHelper::getCurrentUrl(array('lexiconParam' => array('fl' => '', paginator_Paginator::REQUEST_PARAMETER_NAME => 1)));
+			$allTermsNav['href'] = LinkHelper::getCurrentUrl(array('lexiconParam' => array('fl' => '', paginator_Paginator::PAGEINDEX_PARAMETER_NAME => 1)));
 		}
 		$navigation[] = $allTermsNav;
 
@@ -50,7 +50,7 @@ class lexicon_BlockWordContextuallistAction extends website_BlockAction
           'title' => f_Locale::translate('&modules.lexicon.frontoffice.a-letter-terms;', array("letter" => $letter)));
 			if ($firstletter != $letter)
 			{
-				$link['href'] = LinkHelper::getCurrentUrl(array('lexiconParam' => array('fl' => $letter, paginator_Paginator::REQUEST_PARAMETER_NAME => 1)));
+				$link['href'] = LinkHelper::getCurrentUrl(array('lexiconParam' => array('fl' => $letter, paginator_Paginator::PAGEINDEX_PARAMETER_NAME => 1)));
 			}
 			$navigation[] = $link;
 		}
@@ -64,7 +64,7 @@ class lexicon_BlockWordContextuallistAction extends website_BlockAction
 		$nbItemPerPage = lexicon_PreferencesService::getInstance()->getNbItemPerPage();
 
 		// Set the paginator
-		$paginator = new paginator_Paginator('lexicon', $request->getParameter(paginator_Paginator::REQUEST_PARAMETER_NAME, 1), $items, $nbItemPerPage);
+		$paginator = new paginator_Paginator('lexicon', $request->getParameter(paginator_Paginator::PAGEINDEX_PARAMETER_NAME, 1), $items, $nbItemPerPage);
 		$paginator->setListName(f_Locale::translate('&modules.lexicon.frontoffice.terms-listName;'));
 		$request->setAttribute('paginator', $paginator);
 
