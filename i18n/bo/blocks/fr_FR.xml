@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.lexicon.bo.blocks" lcid="fr_FR">
+  <key id="wordcontextuallist">Lexique</key>
+  <key id="word">Terme</key>
+</i18n>

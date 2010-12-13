@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.lexicon.bo.actions" lcid="fr_FR">
+  <key id="create-word">Ajouter un nouveau terme</key>
+</i18n>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.lexicon.frontoffice" lcid="en_GB">
+  <key id="title">Lexicon</key>
+  <key id="backtolexicon">back to lexicon</key>
+  <key id="n">All</key>
+  <key id="all-terms-title">All terms</key>
+  <key id="n5">0-9</key>
+  <key id="na">a</key>
+  <key id="nb">b</key>
+  <key id="nc">c</key>
+  <key id="nd">d</key>
+  <key id="ne">e</key>
+  <key id="nf">f</key>
+  <key id="ng">g</key>
+  <key id="nh">h</key>
+  <key id="ni">i</key>
+  <key id="nj">j</key>
+  <key id="nk">k</key>
+  <key id="nl">l</key>
+  <key id="nm">m</key>
+  <key id="nn">n</key>
+  <key id="no">o</key>
+  <key id="np">p</key>
+  <key id="nq">q</key>
+  <key id="nr">r</key>
+  <key id="ns">s</key>
+  <key id="nt">t</key>
+  <key id="nu">u</key>
+  <key id="nv">v</key>
+  <key id="nw">w</key>
+  <key id="nx">x</key>
+  <key id="ny">y</key>
+  <key id="nz">z</key>
+</i18n>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.lexicon.errors" lcid="fr_FR">
+  <key id="modules-lexicon-getpreferencesdocument">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Ouvrir les préférences″</key>
+  <key id="modules-lexicon-move-rootfolder">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Ajouter une rubrique″</key>
+  <key id="modules-lexicon-remove-topic">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Retirer une rubrique″</key>
+  <key id="modules-lexicon-order">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Modifier l'ordre des éléments″</key>
+  <key id="modules-lexicon-activate-word">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Activer un terme″</key>
+  <key id="modules-lexicon-cancel-word">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Annuler un terme″</key>
+  <key id="modules-lexicon-enabled">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Accès au module″</key>
+</i18n>

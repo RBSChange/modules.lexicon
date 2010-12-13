@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.lexicon.bo.useractionlogger" lcid="fr_FR">
+  <key id="update-rootfolder">update.rootfolder {documentlabel}</key>
+  <key id="log-update-rootfolder">log-update-rootfolder</key>
+  <key id="move-word">move.word {destinationlabel} {lang} {documentlabel}</key>
+  <key id="log-move-word">log-move-word</key>
+  <key id="update-word">update.word {lang} {documentlabel}</key>
+  <key id="log-update-word">log-update-word</key>
+  <key id="updatetranslation-word">updatetranslation.word {lang} {documentlabel}</key>
+  <key id="log-updatetranslation-word">log-updatetranslation-word</key>
+  <key id="deactivated-word">deactivated.word {lang} {documentlabel}</key>
+  <key id="log-deactivated-word">log-deactivated-word</key>
+  <key id="reactivate-word">reactivate.word {lang} {documentlabel}</key>
+  <key id="log-reactivate-word">log-reactivate-word</key>
+  <key id="deletelocalization-word">deletelocalization.word {documentlabel} {lang}</key>
+  <key id="log-deletelocalization-word">log-deletelocalization-word</key>
+  <key id="delete-word">delete.word {documentlabel} {lang}</key>
+  <key id="log-delete-word">log-delete-word</key>
+  <key id="saveredirectinfo-word">saveredirectinfo.word {lang} {documentlabel}</key>
+  <key id="log-saveredirectinfo-word">log-saveredirectinfo-word</key>
+</i18n>
