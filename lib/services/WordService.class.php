@@ -139,4 +139,15 @@ class lexicon_WordService extends f_persistentdocument_DocumentService
 	    
 	    return $result;
 	}
+	
+	/**
+	 * @param lexicon_persistentdocument_word $document
+	 * @param string $moduleName
+	 * @param string $treeType
+	 * @param array<string, string> $nodeAttributes
+	 */	
+	public function addTreeAttributes($document, $moduleName, $treeType, &$nodeAttributes)
+	{
+	    $nodeAttributes['firstletter'] = $document->getFirstletter();
+	}
 }

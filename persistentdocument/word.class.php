@@ -3,7 +3,6 @@ class lexicon_persistentdocument_word extends lexicon_persistentdocument_wordbas
 {
 	/**
 	 * Get the indexable document
-	 *
 	 * @return indexer_IndexedDocument
 	 */
 	public function getIndexedDocument()
@@ -16,15 +15,5 @@ class lexicon_persistentdocument_word extends lexicon_persistentdocument_wordbas
 		$indexedDoc->setText(f_util_StringUtils::htmlToText($this->getDefinition()));
 		Framework::debug(__METHOD__ . var_export($indexedDoc, true));
 		return $indexedDoc;
-	}
-	
-	/**
-	 * @param string $moduleName
-	 * @param string $treeType
-	 * @param array<string, string> $nodeAttributes
-	 */	
-	protected function addTreeAttributes($moduleName, $treeType, &$nodeAttributes)
-	{
-	    $nodeAttributes['firstletter'] = $this->getFirstletter();
 	}
 }
