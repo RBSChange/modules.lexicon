@@ -17,7 +17,7 @@
 				<execute method="setPageRefAsIndex" />
 			</page>
 
-			<page label="Terme" isIndexPage="false" indexingstatus="false" navigationVisibility="hidden">
+			<page label="Terme" isIndexPage="false" indexingstatus="false" navigationVisibility="hidden" robotsmeta="noindex,follow">
 				<tag name="functional_lexicon_word-detail" />
 				<changecontent for="content-block">
 					<changeblock type="modules_lexicon_word" />
