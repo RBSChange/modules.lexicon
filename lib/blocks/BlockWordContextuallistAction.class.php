@@ -23,7 +23,7 @@ class lexicon_BlockWordContextuallistAction extends website_BlockAction
 	function execute($request, $response)
 	{
 		// Get the parent topic
-		$ancestor = $this->getPage()->getAncestors();
+		$ancestor = $this->getContext()->getAncestors();
 		$topicId = f_util_ArrayUtils::lastElement($ancestor);
 		$wordService = lexicon_WordService::getInstance();
 		$letters = $wordService->getAvailableLetters($topicId);
