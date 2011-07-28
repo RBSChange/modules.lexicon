@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <blocks>
 	<block type="modules_lexicon_wordContextuallist" icon="list-block" 
-		label="&amp;modules.lexicon.bo.blocks.wordContextualList;"/>
+		labeli18n="m.lexicon.bo.blocks.wordcontextuallist"/>
 		
 	<block type="modules_lexicon_word" icon="document" 
-		label="&amp;modules.lexicon.bo.blocks.word;"/>
+		labeli18n="m.lexicon.bo.blocks.word"/>
 </blocks>
