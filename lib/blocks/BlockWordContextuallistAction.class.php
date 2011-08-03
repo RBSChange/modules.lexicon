@@ -68,6 +68,6 @@ class lexicon_BlockWordContextuallistAction extends website_BlockAction
 		$paginator->setListName(f_Locale::translate('&modules.lexicon.frontoffice.terms-listName;'));
 		$request->setAttribute('paginator', $paginator);
 
-		return block_BlockView::SUCCESS;
+		return website_BlockView::SUCCESS;
 	}
 }
