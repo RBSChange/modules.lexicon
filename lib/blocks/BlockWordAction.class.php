@@ -11,6 +11,6 @@ class lexicon_BlockWordAction extends website_BlockAction
 	function execute($request, $response)
     {
         $request->setAttribute('item', $this->getDocumentParameter());
-        return block_BlockView::SUCCESS;
+        return website_BlockView::SUCCESS;
     }
 }
