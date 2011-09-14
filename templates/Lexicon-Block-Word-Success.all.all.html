@@ -1,6 +1,6 @@
 <dl class="result-listalpha normal">		
-	<dt>${item/getLabelAsHtml}</dt>
-	<dd>${item/getDefinitionAsHtml}</dd>
+	<dt>${item/getLabel}</dt>
+	<dd>${structure item/getDefinitionAsHtml}</dd>
 </dl>
 
 <a change:link="tag functional_lexicon_word-list; lexiconParam[fl] item/getFirstletter" tal:content="trans:m.lexicon.frontoffice.backtolexicon"></a>
