@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/4.0.xsd" 
-    model-version="1.0" indexable="true" publish-on-day-change="false">
-	<properties>
-		<add name="label" localized="true" />
-  		<add name="publicationstatus" localized="true"/>
-		<add name="firstletter" type="String" db-size="2" localized="true" indexed="none"/>
-		<add name="definition" type="XHTMLFragment" localized="true" min-occurs="1" max-occurs="1" indexed="description">
-			<constraints>blank:false</constraints>
-		</add>
-	</properties>
-	<statuses default="ACTIVE" />
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/4.0.xsd" model-version="1.0" indexable="true" publish-on-day-change="false">
+  <properties>
+    <property name="label" localized="true"/>
+    <property name="publicationstatus" localized="true"/>
+    <property name="firstletter" type="String" db-size="2" localized="true" indexed="none"/>
+    <property name="definition" type="XHTMLFragment" localized="true" min-occurs="1" max-occurs="1" indexed="description"/>
+  </properties>
+  <statuses default="ACTIVE"/>
 </document>
