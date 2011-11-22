@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.lexicon.bo.tags" lcid="en_GB">
+  <key id="word-detail">term details</key>
+  <key id="word-list">Glossary</key>
+</i18n>
