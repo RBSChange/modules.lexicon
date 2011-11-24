@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.lexicon.document.preferences" lcid="en_GB">
+  <key id="document-name">preferences</key>
+  <key id="nbitem">Number of terms per page</key>
+</i18n>

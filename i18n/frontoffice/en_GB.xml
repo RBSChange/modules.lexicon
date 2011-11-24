@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.lexicon.frontoffice" lcid="en_GB">
-  <key id="title">Lexicon</key>
-  <key id="backtolexicon">back to lexicon</key>
+  <key id="title">Glossary</key>
+  <key id="backtolexicon">back to glossary</key>
   <key id="n">All</key>
   <key id="all-terms-title">All terms</key>
   <key id="n5">0-9</key>
@@ -31,4 +31,7 @@
   <key id="nx">x</key>
   <key id="ny">y</key>
   <key id="nz">z</key>
+  <key id="a-letter-terms">Terms beginning with the letter {letter}</key>
+  <key id="no-term">No term in the glossary</key>
+  <key id="terms-listname">terms</key>
 </i18n>

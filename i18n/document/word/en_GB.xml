@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.lexicon.document.word" lcid="en_GB">
+  <key id="definition">definition</key>
+  <key id="document-name">term</key>
+  <key id="firstletter">1st letter</key>
+  <key id="firstletter-help">First letter, for sorting purposes.</key>
+  <key id="label">term</key>
+</i18n>
