@@ -1,9 +1,4 @@
 <?php
-/**
- * @date Wed, 06 Feb 2008 18:23:55 +0100
- * @author inthause
- * @package 
- */
 class lexicon_PreferencesService extends f_persistentdocument_DocumentService
 {
 	/**
@@ -37,7 +32,7 @@ class lexicon_PreferencesService extends f_persistentdocument_DocumentService
 	 */
 	public function createQuery()
 	{
-		return $this->pp->createQuery('modules_lexicon/preferences');
+		return $this->getPersistentProvider()->createQuery('modules_lexicon/preferences');
 	}
 
 	/**
@@ -47,7 +42,7 @@ class lexicon_PreferencesService extends f_persistentdocument_DocumentService
 	 */
 	protected function preSave($document, $parentNodeId)
 	{
-		$document->setLabel('&modules.lexicon.bo.general.Module-name;');
+		$document->setLabel('lexicon');
 	}
 
 	/**
