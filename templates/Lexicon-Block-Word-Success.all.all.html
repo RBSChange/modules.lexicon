@@ -1,6 +1,9 @@
-<dl class="result-listalpha normal">		
+<ul class="mini-navigation">
+	<li>
+		<a change:link="tag functional_lexicon_word-list; lexiconParam[fl] item/getFirstletter">${trans:m.lexicon.frontoffice.backtolexicon,ucf}</a>
+	</li>
+</ul>
+<dl class="normal">		
 	<dt>${item/getLabelAsHtml}</dt>
 	<dd>${item/getDefinitionAsHtml}</dd>
 </dl>
-
-<a change:link="tag functional_lexicon_word-list; lexiconParam[fl] item/getFirstletter" change:translate="&modules.lexicon.frontoffice.backtolexicon;"></a>
