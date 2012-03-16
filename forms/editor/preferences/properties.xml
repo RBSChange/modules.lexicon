@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panel>
-	<section labeli18n="modules.lexicon.document.preferences.Edition-form-title" >
+	<section labeli18n="m.lexicon.document.preferences.document-name" >
 		<field name="nbItem" hidehelp="true" />
 	</section>
 </panel>
