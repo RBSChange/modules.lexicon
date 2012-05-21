@@ -5,7 +5,7 @@
 	<type>change-module</type>
 	<license>os</license>
 	<repository>public</repository>
-	<version>3.6.0</version>
+	<version>3.6.1</version>
 	<description>Lexique</description>
 	<dependencies></dependencies>
 </change>
