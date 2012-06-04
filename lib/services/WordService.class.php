@@ -46,8 +46,8 @@ class lexicon_WordService extends f_persistentdocument_DocumentService
 	    if (!empty($originalLabel))
 	    {
 	        $document->setLabel(f_util_StringUtils::ucfirst($originalLabel));
-	        $firstLetter = f_util_StringUtils::strip_accents($originalLabel);
-	        $firstLetter = f_util_StringUtils::strtoupper(f_util_StringUtils::substr($firstLetter, 0, 1));
+	        $firstLetter = f_util_StringUtils::stripAccents($originalLabel);
+	        $firstLetter = f_util_StringUtils::toUpper(f_util_StringUtils::substr($firstLetter, 0, 1));
 	        if (is_numeric($firstLetter))
 	        {
 	            $firstLetter = "5";
